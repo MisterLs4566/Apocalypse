@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed, runSpeed;
+    public float speed, runSpeed, hearts;
     private float currentSpeed, angle;
     private float horizontalInput, verticalInput;
     private CharacterController playerC;
-    private Vector3 velocity;
+    private Vector3 velocity, mousePos, playerPos;
     private Vector2 velocity2d;
     private Animator playerAnimator;
+    private bool isShooting;
+    private string weapon;
 
     // Start is called before the first frame update
     void Start()
     {
         currentSpeed = speed;
+        isShooting = false;
+        weapon = "";
 
         playerC = GetComponent<CharacterController>();
         playerAnimator = GetComponent<Animator>();
@@ -27,6 +31,7 @@ public class PlayerController : MonoBehaviour
         movementInput();
         Move();
         Rotate();
+        Shoot();
         Animate();
     }
 
@@ -35,7 +40,7 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButton("Fire2"))
         {
             currentSpeed = runSpeed;
             playerAnimator.speed = 2;
@@ -68,9 +73,33 @@ public class PlayerController : MonoBehaviour
         velocity2d = new Vector2(velocity.x, velocity.y);
         angle = Mathf.Atan2(velocity2d.x, velocity2d.y) * Mathf.Rad2Deg;
 
-        if(velocity2d.x != 0 || velocity2d.y !=0)
+        if((velocity2d.x != 0 || velocity2d.y !=0) && isShooting == false)
         {
             transform.rotation = Quaternion.AngleAxis(angle, Vector3.back);
+        }
+    }
+
+    void Shoot()
+    {
+        if(Input.GetButtonDown("Fire1"))
+        {
+            if (weapon != "")
+            {
+                isShooting = true;
+                mousePos = Input.mousePosition;
+                mousePos.z = 10;
+                playerPos = Camera.main.WorldToScreenPoint(transform.position);
+
+                mousePos.x = mousePos.x - playerPos.x;
+                mousePos.y = mousePos.y - playerPos.y;
+
+                angle = Mathf.Atan2(mousePos.x, mousePos.y) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.AngleAxis(angle, Vector3.back);
+            }
+        }
+        else
+        {
+            isShooting = false;
         }
     }
 
