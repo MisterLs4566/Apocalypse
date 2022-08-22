@@ -114,4 +114,12 @@ public class PlayerController : MonoBehaviour
             playerAnimator.SetBool("isRunning", false);
         }
     }
+
+    void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.layer == 6)
+        {
+            Destroy(other.gameObject);
+        }
+    }
 }

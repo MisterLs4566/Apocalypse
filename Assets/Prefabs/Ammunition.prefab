@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 7648178372701791926}
   - component: {fileID: 9043005415366083092}
   - component: {fileID: -4061680284986707021}
-  - component: {fileID: 165354556845072776}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ammunition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,15 +98,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.601736, y: 1.9955983, z: 1}
   m_Center: {x: -0.20240168, y: -0.399333, z: 0.5}
---- !u!114 &165354556845072776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5521232994396340842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 255666828b4fd444fb8979cab8544bc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
