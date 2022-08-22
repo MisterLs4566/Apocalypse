@@ -1,0 +1,4 @@
+repository "new-repository@lkronenb@cloud"
+  path "/"
+    br "/main"
+    co "/main"
