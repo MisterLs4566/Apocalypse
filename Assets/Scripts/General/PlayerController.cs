@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             currentSpeed = speed;
-            playerAnimator.speed = 1;
+            playerAnimator.speed = 0.75f;
         }
 
         if (horizontalInput != 0 && verticalInput != 0)
