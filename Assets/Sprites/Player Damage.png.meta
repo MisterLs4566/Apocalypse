@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 45f30e7c3a4e8bf489ee2d79481ce90c
+guid: e048073cdd74f9f49bd285007c680c06
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,91 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player Run_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 960
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e8a524ee46ca1e4881056257e774036
-      internalID: 180067016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Run_1
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 960
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83c3d18a415b8a343b6c1f5bf642b2d5
-      internalID: -483132468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Run_2
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 960
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 687f098cd88597841890bacfe5daf6e8
-      internalID: 2042342256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Run_3
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 960
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83d53068f9596594b8c6fae6018a94a8
-      internalID: 582234944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Run_4
+      name: Player Damage_0
       rect:
         serializedVersion: 2
         x: 0
@@ -196,20 +112,20 @@ TextureImporter:
         width: 320
         height: 320
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be335c0aefa468045a1ab01b4afdc4e2
-      internalID: -1407876676
+      spriteID: 2fb59562b2e8c8343be387f82f6288ba
+      internalID: -1354912076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Run_5
+      name: Player Damage_1
       rect:
         serializedVersion: 2
         x: 320
@@ -217,62 +133,20 @@ TextureImporter:
         width: 320
         height: 320
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e3a2563b2dc059408dfb715b978d129
-      internalID: -1278703699
+      spriteID: b6dcf0d2cee8eb749be06c2d457a394a
+      internalID: 169023442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Run_6
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 640
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc1d9a61fbfba964fadd1f15d54e2da5
-      internalID: 397988064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Run_7
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 640
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6639441ddde343d49bb7f0712665f82f
-      internalID: -599424780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Run_8
+      name: Player Damage_2
       rect:
         serializedVersion: 2
         x: 0
@@ -280,20 +154,20 @@ TextureImporter:
         width: 320
         height: 320
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4627d8571fcb3348ab3acdd4c3f23bf
-      internalID: -710733576
+      spriteID: 7b4dea80c3240894cad14937a34721d0
+      internalID: -1177987135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Run_9
+      name: Player Damage_3
       rect:
         serializedVersion: 2
         x: 320
@@ -301,62 +175,20 @@ TextureImporter:
         width: 320
         height: 320
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83d3d6d9ee86b03488ab8a2c45f861ce
-      internalID: 576116970
+      spriteID: 791445efb99dc8440960c0d396eeddf7
+      internalID: 807754377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Run_10
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 320
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f33fefbbc6ee14499690ed5181d0401
-      internalID: 1601841111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Run_11
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 320
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0073185e3a17f34468f89bb3604e35f7
-      internalID: -991218229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Run_12
+      name: Player Damage_4
       rect:
         serializedVersion: 2
         x: 0
@@ -364,14 +196,35 @@ TextureImporter:
         width: 320
         height: 320
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2234b008c0924b540be30591ef16deb0
-      internalID: -654454840
+      spriteID: 8944bd6939eb5244fa1b391439bef1ac
+      internalID: 543747475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Damage_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d9ce8219d9ffa4db3c8a94e0059101
+      internalID: -380477734
       vertices: []
       indices: 
       edges: []
@@ -387,19 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player Run_10: 1601841111
-      Player Run_3: 582234944
-      Player Run_11: -991218229
-      Player Run_0: 180067016
-      Player Run_8: -710733576
-      Player Run_1: -483132468
-      Player Run_12: -654454840
-      Player Run_4: -1407876676
-      Player Run_5: -1278703699
-      Player Run_2: 2042342256
-      Player Run_6: 397988064
-      Player Run_7: -599424780
-      Player Run_9: 576116970
+      Player Damage_3: 807754377
+      Player Damage_0: -1354912076
+      Player Damage_5: -380477734
+      Player Damage_2: -1177987135
+      Player Damage_1: 169023442
+      Player Damage_4: 543747475
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8953f88192d73e94a8a9c49fd3f5a771
+guid: b4232040c8c8a40419d9e33a61bf8792
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player Walk_0
+      name: Spieler_Laufanimation_Mittig_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7887266509cdacb4194c402d23b3f492
-      internalID: -177745932
+      spriteID: 0dd896ad1dc2d96499727c3eec20c49f
+      internalID: -1207076726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Walk_1
+      name: Spieler_Laufanimation_Mittig_1
       rect:
         serializedVersion: 2
         x: 320
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b94b82b9fe525943ba7237dd15690bd
-      internalID: 1090761883
+      spriteID: bfe211f6149f5b842aa4e7bc9160b4d4
+      internalID: -1050772243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Walk_2
+      name: Spieler_Laufanimation_Mittig_2
       rect:
         serializedVersion: 2
         x: 640
@@ -160,14 +160,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50d633996f1e3804cbd78937498967f8
-      internalID: 2002270879
+      spriteID: c2a01d178c63cf94e86b26c0c544051b
+      internalID: -826830146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Walk_3
+      name: Spieler_Laufanimation_Mittig_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54caedc4472bde4e81cc045abb42a91
+      internalID: 300198452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spieler_Laufanimation_Mittig_4
       rect:
         serializedVersion: 2
         x: 0
@@ -181,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c1d643d8478e564998daff0b978bbf9
-      internalID: 9747518
+      spriteID: 0c28d251f70d45d4080fdb4dd8923621
+      internalID: -1568534246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Walk_4
+      name: Spieler_Laufanimation_Mittig_5
       rect:
         serializedVersion: 2
         x: 320
@@ -202,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03bf0eb7701680246982a35285c8fcf7
-      internalID: 874264737
+      spriteID: 37b1edcfab87cec43b09fe269b533175
+      internalID: 1937025099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Walk_5
+      name: Spieler_Laufanimation_Mittig_6
       rect:
         serializedVersion: 2
         x: 640
@@ -223,14 +244,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dfff8666610b444a9345e8e5493782c
-      internalID: 166978257
+      spriteID: 2b094bd63f55b6b4ba99d318c49a4200
+      internalID: 1005200250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Walk_6
+      name: Spieler_Laufanimation_Mittig_7
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7d021912a29de44a9737225ed21310
+      internalID: -395570443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spieler_Laufanimation_Mittig_8
       rect:
         serializedVersion: 2
         x: 0
@@ -244,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06798167b4fc3334cb7844a37e779b74
-      internalID: 828210704
+      spriteID: 980b0d6e93bac914abf58689b4c77066
+      internalID: -671529627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Walk_7
+      name: Spieler_Laufanimation_Mittig_9
       rect:
         serializedVersion: 2
         x: 320
@@ -265,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe3e7f10270e4bc43a2a639d70bc20fc
-      internalID: 215031457
+      spriteID: e4d54eb82160ae54b813a54939a3fffd
+      internalID: -1206054016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Walk_8
+      name: Spieler_Laufanimation_Mittig_10
       rect:
         serializedVersion: 2
         x: 640
@@ -286,14 +328,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 053980ac9b0f0b94a83e00d4a6d69327
-      internalID: -691994119
+      spriteID: 617178d8bc3ba764f997c56e1dbe62c5
+      internalID: 1068113831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Walk_9
+      name: Spieler_Laufanimation_Mittig_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033f161d479e42347aa4c29742727c83
+      internalID: -1520381741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spieler_Laufanimation_Mittig_12
       rect:
         serializedVersion: 2
         x: 0
@@ -307,50 +370,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b24b1a33cd672f44a9e1b049cb616b2b
-      internalID: -190234795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Walk_10
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 246c332ccd8aeb242b756be038ca3104
-      internalID: 1096667343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Walk_11
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: afbe78a5a97326f4cb55dff37fae7fc2
-      internalID: 473306067
+      spriteID: 72f94e2ba86aa604e9839136ede91c5d
+      internalID: -1184129383
       vertices: []
       indices: 
       edges: []
@@ -366,18 +387,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player Walk_1: 1090761883
-      Player Walk_7: 215031457
-      Player Walk_5: 166978257
-      Player Walk_9: -190234795
-      Player Walk_8: -691994119
-      Player Walk_10: 1096667343
-      Player Walk_3: 9747518
-      Player Walk_4: 874264737
-      Player Walk_11: 473306067
-      Player Walk_6: 828210704
-      Player Walk_2: 2002270879
-      Player Walk_0: -177745932
+      Spieler_Laufanimation_Mittig_5: 1937025099
+      Spieler_Laufanimation_Mittig_0: -1207076726
+      Spieler_Laufanimation_Mittig_9: -1206054016
+      Spieler_Laufanimation_Mittig_11: -1520381741
+      Spieler_Laufanimation_Mittig_8: -671529627
+      Spieler_Laufanimation_Mittig_3: 300198452
+      Spieler_Laufanimation_Mittig_10: 1068113831
+      Spieler_Laufanimation_Mittig_1: -1050772243
+      Spieler_Laufanimation_Mittig_4: -1568534246
+      Spieler_Laufanimation_Mittig_7: -395570443
+      Spieler_Laufanimation_Mittig_6: 1005200250
+      Spieler_Laufanimation_Mittig_12: -1184129383
+      Spieler_Laufanimation_Mittig_2: -826830146
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
