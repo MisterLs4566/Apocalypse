@@ -159,7 +159,7 @@ public class PlayerController : MonoBehaviour
         playerAnimator.SetBool("isRunning", false);
         hearts -= 10;
         receiveDamage = false;
-        knockbackVelocity = -knockback;
+        knockbackVelocity = knockback;
         yield return new WaitForSeconds(1);
         receiveDamage = true;
         playerAnimator.SetBool("getDamage", false);
@@ -169,8 +169,8 @@ public class PlayerController : MonoBehaviour
     {
         isWaitingKnockback = true;
         yield return new WaitForSeconds(0.05f);
-        velocity += playerDirection * knockbackVelocity;
-        knockbackVelocity += 1.5f;
+        velocity += playerDirection * -knockbackVelocity;
+        knockbackVelocity *= 0.9f;
         isWaitingKnockback = false;
     }
 
