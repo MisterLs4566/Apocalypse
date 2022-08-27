@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
         isShooting = false;
         receiveDamage = true;
         isWaitingKnockback = false;
-        weapon = "";
+        weapon = "Gun";
 
         playerC = GetComponent<CharacterController>();
         playerAnimator = GetComponent<Animator>();
