@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -8,12 +9,12 @@ public class PlayerController : MonoBehaviour
     public float speed, runSpeed, hearts, knockback;
     private float currentSpeed, angle;
     private float horizontalInput, verticalInput;
-    private float maxHearts, knockbackVelocity;
+    private float maxHearts;
     private Animator playerAnimator;
     private Rigidbody2D playerRb;
     private Vector3 mousePos;
     private Vector3 velocity, playerPos;
-    private bool isShooting, isGettingKnockback;
+    private bool isShooting;
     private string weapon;
     private bool receiveDamage;
     private Vector3 playerDirection;
@@ -26,7 +27,6 @@ public class PlayerController : MonoBehaviour
         currentSpeed = speed;
         isShooting = false;
         receiveDamage = true;
-        isGettingKnockback = false;
         weapon = "Gun";
 
         playerAnimator = GetComponent<Animator>();
@@ -183,54 +183,12 @@ public class PlayerController : MonoBehaviour
     void Knockback()
     {
 
-        if (knockbackVelocity != 0)
-        {
-
-            if(knockbackVelocity < 0)
-            {
-
-                if(isGettingKnockback == false)
-                {
-
-                    StartCoroutine(waitDamage());
-
-                }
-
-            }
-            else
-            {
-
-                knockbackVelocity = 0f;
-
-            }
-
-        }
-
     }
 
-    IEnumerator getDamage()
+    IEnumerator WaitForDamage()
     {
-
-        playerAnimator.SetBool("getDamage", true);
-        playerAnimator.SetBool("isRunning", false);
-        hearts -= 10;
-        receiveDamage = false;
-        knockbackVelocity = knockback;
         yield return new WaitForSeconds(1);
-        receiveDamage = true;
         playerAnimator.SetBool("getDamage", false);
-
-    }
-
-    IEnumerator waitDamage()
-    {
-
-        isGettingKnockback = true;
-        yield return new WaitForSeconds(0.05f);
-        velocity += playerDirection * -knockbackVelocity;
-        knockbackVelocity *= 0.9f;
-        isGettingKnockback = false;
-
     }
 
     void OnCollisionEnter2D(Collision2D other)
@@ -253,14 +211,11 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Zombie"))
         {
 
-            if(receiveDamage == true)
-            {
+            playerAnimator.SetBool("getDamage", true);
+            playerAnimator.SetBool("isRunning", false);
 
-                playerDirection = gameObject.transform.up;
-                velocity = new Vector2(0, 0);
-                StartCoroutine(getDamage());
-
-            }
+            playerRb.AddForce(playerRb.velocity - other.gameObject.GetComponent<Rigidbody2D>().velocity * knockback, ForceMode2D.Impulse);
+            StartCoroutine(WaitForDamage());
 
         }
 
@@ -274,6 +229,7 @@ public class PlayerController : MonoBehaviour
         {
 
             Destroy(gameObject);
+            SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
 
         }
 
