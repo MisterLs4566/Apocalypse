@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 561485682934090465}
   - component: {fileID: 561485682934090462}
-  - component: {fileID: 1696573947475845830}
+  - component: {fileID: 5772877424698806236}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -85,16 +85,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &1696573947475845830
-BoxCollider:
+--- !u!61 &5772877424698806236
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561485682934090463}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.05134082, y: 0.1026814}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2, y: 3.2}
+    newSize: {x: 3.2, y: 3.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.7319305, y: 3.0221336, z: 2}
-  m_Center: {x: -0.046807397, y: 0.088934176, z: 0}
+  m_Size: {x: 2.7071295, y: 2.9946375}
+  m_EdgeRadius: 0

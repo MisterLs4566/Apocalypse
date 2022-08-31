@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7342574659319490866}
   - component: {fileID: 4813726649508644749}
-  - component: {fileID: 6748372369346593040}
+  - component: {fileID: 1928599966116140556}
   m_Layer: 0
   m_Name: Chair1
   m_TagString: Untagged
@@ -85,16 +85,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &6748372369346593040
-BoxCollider:
+--- !u!61 &1928599966116140556
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921522997771840586}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.1418773, y: -0.0945847}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2, y: 3.2}
+    newSize: {x: 3.2, y: 3.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8901361, y: 0.8063109, z: 2}
-  m_Center: {x: -0.14902359, y: -0.0977968, z: 0}
+  m_Size: {x: 0.9110496, y: 0.7975478}
+  m_EdgeRadius: 0

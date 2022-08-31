@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6099279097541405771}
   - component: {fileID: 4478711444376574006}
-  - component: {fileID: -5017561684682617052}
+  - component: {fileID: 7571658302871870367}
   m_Layer: 6
   m_Name: Crowbar
   m_TagString: Crowbar
@@ -85,16 +85,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &-5017561684682617052
-BoxCollider:
+--- !u!61 &7571658302871870367
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2499738662295291323}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.09504604, y: -0.49899054}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2, y: 3.2}
+    newSize: {x: 3.2, y: 3.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9461288, y: 1.5430975, z: 1}
-  m_Center: {x: -0.08956146, y: -0.47020197, z: 0.5}
+  m_Size: {x: 2.0024204, y: 1.612731}
+  m_EdgeRadius: 0

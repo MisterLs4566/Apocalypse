@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5125122652325790469}
   - component: {fileID: 5273734720912690579}
-  - component: {fileID: 6501266491482670009}
+  - component: {fileID: 7819972029653718752}
   m_Layer: 6
   m_Name: Revolver
   m_TagString: Untagged
@@ -85,16 +85,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &6501266491482670009
-BoxCollider:
+--- !u!61 &7819972029653718752
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2351829952462773810}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00000047683716, y: -0.05450028}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2, y: 3.2}
+    newSize: {x: 3.2, y: 3.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.7882442, y: 1.9189501, z: 2}
-  m_Center: {x: -0.0031785965, y: -0.026322842, z: 0}
+  m_Size: {x: 2.807598, y: 1.8919908}
+  m_EdgeRadius: 0

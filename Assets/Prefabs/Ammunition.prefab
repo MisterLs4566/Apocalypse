@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7648178372701791926}
   - component: {fileID: 9043005415366083092}
-  - component: {fileID: -4061680284986707021}
+  - component: {fileID: -7600009784406237100}
   m_Layer: 6
   m_Name: Ammunition
   m_TagString: Ammunition
@@ -85,16 +85,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &-4061680284986707021
-BoxCollider:
+--- !u!61 &-7600009784406237100
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5521232994396340842}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.19418299, y: -0.38836598}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2, y: 3.2}
+    newSize: {x: 3.2, y: 3.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.601736, y: 1.9955983, z: 2}
-  m_Center: {x: -0.20240168, y: -0.399333, z: 0.5}
+  m_Size: {x: 1.6095493, y: 1.9979148}
+  m_EdgeRadius: 0
